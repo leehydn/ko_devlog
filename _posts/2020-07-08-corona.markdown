@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "코로나바이러스감염증-19"
-categories: [ 칼럼 ]
+categories: [ Cols ]
 author: hyeon
 image: assets/images/13.jpg
 ---
