@@ -14,7 +14,7 @@
                 </h6>
                 <span class="d-block text-muted">
                     <div>
-                    {{ post.date | date: '%b %d' }} · 
+                    {{ post.date | date: '%m월 %d일' }} · 
                     {% assign words = post.content | number_of_words %}
                     {% if words < 360 %}
                     1분

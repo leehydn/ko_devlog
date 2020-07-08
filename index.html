@@ -35,7 +35,7 @@ description: ".데브로그"
     </p>
     <div>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d' }} · 
+            {{ latest_post.date | date: '%m월 %d일' }} · 
             {% assign words = latest_post.content | number_of_words %}
             {% if words < 360 %}
               1분
@@ -71,7 +71,7 @@ description: ".데브로그"
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d' }} · 
+                        {{ second_post.date | date: '%m월 %d일' }} · 
                         {% assign words = second_post.content | number_of_words %}
                         {% if words < 360 %}
                           1분
@@ -103,7 +103,7 @@ description: ".데브로그"
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d' }} · 
+                        {{ third_post.date | date: '%m월 %d일' }} · 
                         {% assign words = third_post.content | number_of_words %}
                         {% if words < 360 %}
                           1분
@@ -135,7 +135,7 @@ description: ".데브로그"
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="text-muted">
-                        {{ fourth_post.date | date: '%b %d' }} · 
+                        {{ fourth_post.date | date: '%m월 %d일' }} · 
                         {% assign words = fourth_post.content | number_of_words %}
                         {% if words < 360 %}
                           1분
