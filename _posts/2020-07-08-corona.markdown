@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "코로나바이러스감염증-19와 배달 시장 성장 간의 관계"
+title:  "코로나바이러스감염증-19와 배달 시장 성장"
 categories: [ Column ]
 author: hyeon
 image: assets/images/13.jpg
