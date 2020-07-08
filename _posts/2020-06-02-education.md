@@ -3,7 +3,7 @@ layout: post
 title:  "GLPK와 재귀적 선형계획법을 이용한 MCMF 해결 기법"
 categories: [ Algo ]
 author: hyeon
-image: assets/images/3.jpg
+image: assets/images/mcmf.png
 ---
 There are lots of powerful things you can do with the Markdown editor
 

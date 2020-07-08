@@ -3,9 +3,9 @@ layout: post
 title:  "히오스조아"
 author: hyeon
 categories: [ Twitter ]
-image: assets/images/15.jpg
+image: assets/images/hos.jpg
 ---
-The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
+> 히어로즈 오브 더 스톰은 언제나 우리에게 진실을 전해준다.
 
 As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.
 
