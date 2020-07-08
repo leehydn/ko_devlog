@@ -76,7 +76,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nanum Myeongjo", "Caruta", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Caruta", "Nanum Myeongjo", "Segoe UI", "Helvetica Neue", "Arial";
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: -0.4px;
