@@ -20,11 +20,11 @@ layout: default
 												<a href="{{site.baseurl}}/{{author.myurl}}"><img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/></a>
                         {% endif %}
 						<small class="ml-3"> <a style="color: #212529" href="{{site.baseurl}}/{{author.myurl}}">{{ author.name }}</a>
-										<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-                    <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i></span>
+										<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">팔로우</a></span>
+                    <span class="text-muted d-block mt-1">{{ page.date | date: '%Y년 %m월 %d일' }} · {% include meta-read-time.html %} <i class="fa fa-star text-gray"></i></span>
 						</small>
 						<small class="ml-3">
-								<div style="padding-left: 0.3rem" class="text-muted">Share this</div>
+								<div style="padding-left: 0.3rem" class="text-muted">공유하기</div>
 								<div class="share d-inline-block">
 									<!-- AddToAny BEGIN -->
 									<div class="a2a_kit a2a_default_style">
@@ -110,9 +110,9 @@ layout: default
 												
                         <h5 class="font-weight-bold">
 													<a style="color: #212529" href="{{site.baseurl}}/{{author.myurl}}">
-														Written by {{ author.name }}
+														{{ author.name }}
 													</a>
-													 {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+													 {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">팔로우</a></span>{% endif %}</h5>
 						{{ author.bio }}					
 					</div>
 				</div>				
