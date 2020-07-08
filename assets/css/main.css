@@ -76,10 +76,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "UnBat", "Caruta", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Nanum Myeongjo", "Caruta", "Segoe UI", "Helvetica Neue", "Arial";
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
   line-height: 1.8;
   color: #212529;
   text-align: left;
