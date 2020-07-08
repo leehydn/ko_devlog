@@ -148,6 +148,39 @@ description: ".데브로그"
             </div>
         
     </div>
+    {%- assign fifth_post = site.posts[0] -%}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if fifth_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+      <p style="margin-bottom: 0;font-weight: 200;text-transform: uppercase;" class="text-muted">
+        {% for category in fifth_post.categories %}
+        <a class="text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
+        {% endfor %}
+    </p>
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ fifth_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ fifth_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    </p>
+    <div>
+        <small class="text-muted">
+            {{ fifth_post.date | date: '%m월 %d일' }} · 
+            {% assign words = fifth_post.content | number_of_words %}
+            {% if words < 360 %}
+              1분
+            {% else %}
+              {{ words | divided_by:180 }}분
+            {% endif %}
+            <i class="fa fa-star text-gray"></i>
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
     
 </div>
     
