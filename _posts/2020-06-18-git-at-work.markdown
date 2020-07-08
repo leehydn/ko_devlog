@@ -6,7 +6,7 @@ author: hyeon
 image: assets/images/alphameme.jpg
 tags: [ featured ]
 ---
-> 본 페이지의 제목은 ["일하는 세포"](https://ko.wikipedia.org/wiki/일하는_세포)의 패러디입니다.
+> 본 페이지의 제목은 당연히 ["일하는 세포"](https://ko.wikipedia.org/wiki/일하는_세포)의 패러디입니다.
 
 Commit messages on Git is extremely important, especially if the project gets bigger. It helps you figure out the changes made to the file, without asking your colleagues in detail. However, writing commit messages is sometimes very annoying. If you are running a project on your own, and if you know what's going on in your project, maybe specific comments are not needed. If you don't want to write brief commit messages in the project that nobody might see, let's throw it away!
 
