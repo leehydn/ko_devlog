@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Education must also train one for quick, resolute and effective thinking."
-categories: [ Education ]
+title:  "GLPK와 재귀적 선형계획법을 이용한 MCMF 해결 기법"
+categories: [ Algo ]
 author: hyeon
 image: assets/images/3.jpg
 ---
