@@ -1,0 +1,27 @@
+---
+title: "이현동"
+layout: default
+permalink: "/author-hyeondong-lee.html"
+---
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.hyeon.twitter }}">Follow</a></span></h2>
+                <a target="_blank" style="padding: 2px" href="{{ site.authors.hyeon.twitter }}"><i class="fab fa-twitter" style="font-family: 'Font Awesome 5 Brands'" aria-hidden="true"></i></a>  &nbsp;
+                <a target="_blank" style="padding: 2px" href="{{ site.authors.hyeon.site }}"><i class="fa fa-globe" style="font-family: 'Font Awesome 5 Free'" aria-hidden="true"></i></a> &nbsp;
+                <p class="excerpt">{{ site.authors.hyeon.bio }}</p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="{{ site.authors.hyeon.name }}" src="{{ site.authors.hyeon.avatar }}" class="rounded-circle" height="100" width="100">
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+            {% assign posts = site.posts | where:"author","hyeon" %}
+            {% for post in posts %}
+            {% include main-loop-card.html %}
+            {% endfor %}
+    </div>
+</div>
+</div>

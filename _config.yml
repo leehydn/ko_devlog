@@ -1,1 +1,56 @@
-theme: jekyll-theme-cayman
+# Site
+name: '.devlog'
+description: '.devlog는 모두를 위한 공간입니다.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.jpg'
+#baseurl: ''
+disqus: 'hyeondnl-tk'
+email: 'hyeondnl+devlog@gmail.com'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    hyeon:
+      name:           Hyeondong Lee
+      site:           https://hyeondnl.github.io
+      myurl:          author-hyeondong-lee
+      bio:            "제 블로그에 오신 여러분을 환영합니다."
+      email:          hyeondnl@gmail.com
+      twitter:        https://twitter.com/hyeondnl
+      avatar:         assets/images/avatar_lhd.png
+ 
+# Defaults
+defaults:
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: hyeon
+      avatar: /assets/images/avatar.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Caruta;
+  src: url(../fonts/caruta-Roman.woff) format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Caruta;
+  src: url(../fonts/caruta-Bold.woff) format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Caruta;
+  src: url(../fonts/caruta-BoldItalic.woff) format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: Caruta;
+  src: url(../fonts/caruta-Italic.woff) format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Thin.woff) format('woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-ExtraLight.woff) format('woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Light.woff) format('woff');
+  font-weight: 200;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Book.woff) format('woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Regular.woff) format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Medium.woff) format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Bold.woff) format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-ExtraBold.woff) format('woff');
+  font-weight: 800;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Black.woff) format('woff');
+  font-weight: 900;
+}
+@font-face {
+  font-family: Klien;
+  src: url(../fonts/klein-Italic.woff) format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Bold.otf) format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: KoPub;
+  src: url(../fonts/kopub-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Bold.otf) format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Dotum;
+  src: url(../fonts/dotum-Light.otf) format('opentype');
+  font-weight: 300;
+}
