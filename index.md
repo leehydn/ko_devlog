@@ -1,5 +1,5 @@
 ---
-title: "Main"
+title: "홈"
 layout: default
 pagination:
     enabled: true

@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About .devlog"
 layout: page-gallery
 permalink: "/about.html"
 image: "/assets/images/vr.jpg"
