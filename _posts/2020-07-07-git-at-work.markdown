@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git at Work!"
+title:  "일하는 깃!"
 categories: [ Git ]
 author: hyeon
 image: assets/images/alphameme.jpg

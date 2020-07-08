@@ -104,3 +104,25 @@
   src: url(../fonts/dotum-Light.otf) format('opentype');
   font-weight: 300;
 }
+
+@font-face {
+  font-family: UnBat;
+  src: url(../fonts/unbat-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: UnBat;
+  src: url(../fonts/unbat-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: UnDot;
+  src: url(../fonts/undot-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: UnDot;
+  src: url(../fonts/undot-Regular.ttf);
+  font-weight: 400;
+}
