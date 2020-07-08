@@ -1,9 +1,9 @@
 ---
-title: "Main"
+title: "홈"
 layout: default
 pagination:
     enabled: true
-description: ".devlog"
+description: ".데브로그"
 ---
 
 <div class="container">
@@ -38,9 +38,9 @@ description: ".devlog"
             {{ latest_post.date | date: '%b %d' }} · 
             {% assign words = latest_post.content | number_of_words %}
             {% if words < 360 %}
-              1 min read
+              1분
             {% else %}
-              {{ words | divided_by:180 }} mins read
+              {{ words | divided_by:180 }}분
             {% endif %}
             <i class="fa fa-star text-gray"></i>
         </small>
@@ -74,9 +74,9 @@ description: ".devlog"
                         {{ second_post.date | date: '%b %d' }} · 
                         {% assign words = second_post.content | number_of_words %}
                         {% if words < 360 %}
-                          1 min read
+                          1분
                         {% else %}
-                          {{ words | divided_by:180 }} mins read
+                          {{ words | divided_by:180 }}분
                         {% endif %}
                         <i class="fa fa-star text-gray"></i>
                     </small>
@@ -106,9 +106,9 @@ description: ".devlog"
                         {{ third_post.date | date: '%b %d' }} · 
                         {% assign words = third_post.content | number_of_words %}
                         {% if words < 360 %}
-                          1 min read
+                          1분
                         {% else %}
-                          {{ words | divided_by:180 }} mins read
+                          {{ words | divided_by:180 }}분
                         {% endif %}
                         <i class="fa fa-star text-gray"></i>
                     </small>
@@ -138,9 +138,9 @@ description: ".devlog"
                         {{ fourth_post.date | date: '%b %d' }} · 
                         {% assign words = fourth_post.content | number_of_words %}
                         {% if words < 360 %}
-                          1 min read
+                          1분
                         {% else %}
-                          {{ words | divided_by:180 }} mins read
+                          {{ words | divided_by:180 }}분
                         {% endif %}
                         <i class="fa fa-star text-gray"></i>
                     </small>
@@ -186,7 +186,7 @@ description: ".devlog"
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>포스트</span></h4>
         
 
         {% for post in paginator.posts %}
