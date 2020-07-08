@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "코로나바이러스감염증-19"
+title:  "코로나바이러스감염증-19와 배달 시장 성장 간의 관계"
 categories: [ Column ]
 author: hyeon
 image: assets/images/13.jpg
 ---
-[comment]: # (코로나바이러스감염증-19는 여러 분야에서 큰 영향력을 떨치고 있다. )
+[comment]: # (코로나바이러스감염증-19는 우리가 생각지도 못한 여러 분야에서 큰 영향력을 떨치고 있다. )
 
 ## 개요 
 

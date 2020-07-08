@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "언론과 교육"
 author: hyeon
-categories: [ Markdown ]
+categories: [ Column ]
 image: assets/images/home.jpg
 tags: [summer]
 ---

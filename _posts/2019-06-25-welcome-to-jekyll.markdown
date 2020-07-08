@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-categories: [ Jekyll ]
+title:  "래스터 변환 알고리즘"
+categories: [ Algo ]
 author: hyeon
 image: assets/images/demo1.jpg
 ---

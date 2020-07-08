@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The first mass-produced book to deviate from a rectilinear format"
+title:  "효율적인 Git 브랜치 관리법"
 author: hyeon
-categories: [ Discovery ]
+categories: [ Git ]
 image: assets/images/17.jpg
 tags: [featured]
 ---
