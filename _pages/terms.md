@@ -1,5 +1,5 @@
 ---
-title: "이용약관"
+title: "이용 약관"
 permalink: "/terms.html"
 ---
 Last update on July, 2020.
